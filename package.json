@@ -1,0 +1,46 @@
+{
+  "name": "@es-js/docs-components",
+  "version": "0.0.27",
+  "scripts": {
+    "build": "rimraf dist && vue-tsc && vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "prepublish": "pnpm run build"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@iconify/vue": "^4.0.2",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@amoutonbrady/lz-string": "^0.1.0",
+    "@es-js/sandbox": "^0.0.19",
+    "@iconify/vue": "^4.1.2",
+    "@types/node": "^20.14.2",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "rimraf": "^5.0.7",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.27",
+    "vue-tsc": "^2.0.19"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/docs-components.es.js",
+  "module": "./dist/docs-components.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/docs-components.es.js",
+      "require": "./dist/docs-components.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  }
+}
