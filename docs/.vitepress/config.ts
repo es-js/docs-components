@@ -19,9 +19,12 @@ export default {
 				text: 'Componentes',
 				items: [
 					{ text: 'EsEditor', link: '/components/es-editor' },
-          { text: 'EsEjecutar', link: '/components/es-ejecutar' },
+          			{ text: 'EsEjecutar', link: '/components/es-ejecutar' },
 				],
 			},
+		],
+		socialLinks: [
+			{ icon: 'github', link: 'https://github.com/es-js/docs-components' },
 		],
 	},
 	vite: {
