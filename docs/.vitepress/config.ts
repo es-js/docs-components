@@ -4,6 +4,7 @@ export default {
 	title: 'EsJS Docs Components',
 	description: 'Componentes para interactuar con Editor EsJS y Ejecutar EsJS',
 	themeConfig: {
+		logo: 'https://es.js.org/assets/logo.png',
 		repo: 'https://github.com/es-js/docs-components',
 		outline: [1, 3],
 		sidebar: [
