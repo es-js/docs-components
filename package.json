@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@amoutonbrady/lz-string": "^0.1.0",
-    "@es-js/sandbox": "0.0.20-alpha.3",
+    "@es-js/sandbox": "0.0.20-alpha.4",
     "@iconify/vue": "^4.1.2",
     "@types/node": "^20.14.2",
     "@vitejs/plugin-vue": "^5.0.5",
