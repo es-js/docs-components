@@ -12,8 +12,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       '@es-js/sandbox':
-        specifier: ^0.0.19
-        version: 0.0.19
+        specifier: 0.0.20-alpha.2
+        version: 0.0.20-alpha.2
       '@iconify/vue':
         specifier: ^4.1.2
         version: 4.1.2(vue@3.4.27(typescript@5.4.5))
@@ -165,8 +165,8 @@ packages:
       search-insights:
         optional: true
 
-  '@es-js/sandbox@0.0.19':
-    resolution: {integrity: sha512-jT3rmpDQVKzXFezxJm08bB62squhvloGJypNXUO4Mwm4R3U4u+hodCL5D8wxPCXL1a4ekhXHp5TSZxt97kh4mg==}
+  '@es-js/sandbox@0.0.20-alpha.2':
+    resolution: {integrity: sha512-phuoKwaLo/NHR18toBTRWRaSyemHOg/IrvCAI9/efKISBaiR3aS15nd64b3XhMhugWESaWQfmRXczlEjw38ljA==}
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -1302,7 +1302,7 @@ snapshots:
     transitivePeerDependencies:
       - '@algolia/client-search'
 
-  '@es-js/sandbox@0.0.19': {}
+  '@es-js/sandbox@0.0.20-alpha.2': {}
 
   '@esbuild/aix-ppc64@0.20.2':
     optional: true
